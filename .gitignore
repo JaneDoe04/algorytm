@@ -1,0 +1,24 @@
+# Pliki skompilowane
+*.o
+*.exe
+*.out
+huffman
+huffman.exe
+
+# Pliki skompresowane (przykładowe)
+*.huff
+
+# Pliki zdekompresowane (przykładowe)
+decompressed.txt
+test_output.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# System
+.DS_Store
+Thumbs.db
