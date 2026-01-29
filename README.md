@@ -1,15 +1,13 @@
 # Projekt Huffman - Kompresja Plików
 
-To jest projekt zaliczeniowy z Algorytmów i Struktur Danych. Program s³u¿y do zmniejszania rozmiaru plików tekstowych (kompresji) i ich przywracania (dekompresji) metod¹ Huffmana.
+BARDZO PRZEPRASZAM ZA SPOZNIENIE, KLIKNALEM NA TEAMSACH 17 STYCZNIA ZEBY ZALACZYC PLIK ALE NIE KLIKNALEM PRZESLIJ I DOPIERO DZIS TO ZAUWAZYLEM.
 
-## Co ten program robi?
+## Przyk³adowe pliki
+W folderze znajduj¹ siê gotowe pliki prezentuj¹ce dzia³anie programu:
+1.  przyklad.txt
+2.  przyklad.huff
 
-1.  **Kompresuje**: Bierze plik tekstowy i przerabia go na mniejszy plik .huff.
-2.  **Dekompresuje**: Bierze plik .huff i odzyskuje z niego oryginalny tekst.
-3.  **Pokazuje kolejkê**: Ma opcjê demo, która pokazuje jak dzia³a kolejka priorytetowa.
-
-## Jak uruchomiæ?
-Program jest ju¿ skompilowany (huffman.exe).
+To jest projekt zaliczeniowy z Algorytmów i Struktur Danych.
 
 ## Autor
 Robert Jereczek
