@@ -33,12 +33,15 @@ void HuffmanTree::buildTree(const std::map<char, int>& frequencies) {
         return;
     }
     
-    PriorityQueue<HuffmanNode*> pq(compareHuffmanNodes);
-    
+    // Zamiast dodawać pojedynczo, tworzymy wektor i budujemy kolejkę w czasie liniowym O(n)
+    std::vector<HuffmanNode*> nodes;
+    nodes.reserve(frequencies.size());
     for (const auto& pair : frequencies) {
-        HuffmanNode* node = new HuffmanNode(pair.first, pair.second);
-        pq.add(node);
+        nodes.push_back(new HuffmanNode(pair.first, pair.second));
     }
+    
+    PriorityQueue<HuffmanNode*> pq(compareHuffmanNodes);
+    pq.buildFromArray(nodes);
     
     while (pq.size() > 1) {
         HuffmanNode* left = pq.remove();
